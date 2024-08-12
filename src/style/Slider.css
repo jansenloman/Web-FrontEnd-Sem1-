@@ -1,0 +1,34 @@
+.containerslider {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  width: 76% !important;
+}
+
+.active.carousel-item{
+  height: 356px;
+}
+
+span.carousel-control-prev-icon {
+  margin-left: -36%;
+}
+span.carousel-control-next-icon {
+  margin-right: -36%;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: black !important;
+  height: 5px! important;
+}
+
+@media screen and (max-width: 600px) {
+  .containerslider{
+    width: 100% !important;
+  }
+  .carousel-indicators button{
+    width: 10% !important;
+    margin-bottom: -20% !important;
+  }
+  .active.carousel-item{
+    height: 100%;
+  }
+}

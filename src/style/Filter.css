@@ -1,0 +1,79 @@
+.kontenerfilter {
+  width: 30px;
+}
+
+.dataResult .dataku {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  color: black;
+  padding-left: 10px;
+}
+
+.dataku{
+  color: black !important;  
+  padding-top: 10px;
+}
+
+.dataResult {
+  display: block;
+  width: 765px;
+  height: 200px;
+  background-color: white;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-top: 20.5%;
+}
+
+.dataResult:focus {
+  display: block !important;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+  text-decoration: none;
+}
+.floatleft{
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 18%;
+  z-index: 20;
+}
+.kontenersearch {
+  z-index: 9999;
+}
+@media screen and (min-width: 350px) and (max-width: 450px){
+  .floatleft {
+    margin-top: 55%;
+    margin-left: 24%;
+  }
+  .iconclose {
+    font-size: 20px !important;
+  }
+  .dataResult {
+    width: 170px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 900px){
+  .floatleft {
+    margin-top: 21%;
+    margin-left: 20%;
+  }
+  .dataResult {
+    width: 360px;
+  }
+}
+
+@media screen and (width: 1280px) {
+  .floatleft{
+    margin-top: 11%;
+    margin-left: 20%;
+  }
+  .dataResult {
+    width: 630px;
+  }
+}
+
+.iconclose {
+  font-size: 30px;
+}

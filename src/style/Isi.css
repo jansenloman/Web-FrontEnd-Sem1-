@@ -1,0 +1,51 @@
+.kontenerongoing {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: black;
+  color: white;
+  width: 78%;
+  margin: 0 auto;
+  margin-top: -6% !important;
+  padding: 15px 20px 8px 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px){
+  .kontenerongoing h2 {
+    font-size: 12px;
+  }
+  .kontenerongoing {
+    padding: 13px 0px 2px 12px;
+    margin-top: 1px !important;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 450px){
+  .kontenerongoing h2 {
+    font-size: 12px;
+  }
+  .kontenerongoing {
+    padding: 13px 0px 2px 12px;
+    margin-top: 1px !important;
+  }
+}
+
+.kontenertotalcard {
+  width: 78%;
+  margin: 0 auto;
+}
+.pluspad {
+  margin-top: 0!important;
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px){
+  .searchbar {
+    margin-top: 5%;
+  }
+}
+
+h5.judulcard {
+  color: black !important;
+}

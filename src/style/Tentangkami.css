@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Josefin;
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+/* ini bagian Img */
+
+.kontenerprofil {
+    width: 100%;
+    
+}
+
+div.cointainer.img-1 {
+    margin: 0 auto;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+div.display.img-2 {
+    margin: 0;
+}
+img.col-1{
+    width: 100% !important;
+}
+.img-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -35px;
+}
+/* Bagian Profil */
+h2.profil{
+    text-align: center;
+    margin: 20px;
+}
+/* Ukuran Img */
+.col-1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* Jarak Img */
+.img-2{
+    margin: 65px;
+    text-align: center;
+}
+
+/* Bagian Tengah */
+.tengah-col-1 {
+    border-radius: 15px ;
+    margin: 30px;
+    height: 50px;
+    background-color: black;
+    margin-top: -25px;
+}
+
+.tengah-1 {
+    font-family: Josefin;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+}
+
+p.isitentang {
+    margin: 60px;
+    margin-top: -10px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    .kontenerprofil {
+        width: 100%;
+    }
+    div.cointainer.img-1 {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    div.display.img-2 {
+        margin: 0;
+    }
+    .col-1 {
+        width: 80% !important;
+        height: 450px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+    p.isitentang {
+        width: 80%;
+        margin-left: 10%;
+    }
+}

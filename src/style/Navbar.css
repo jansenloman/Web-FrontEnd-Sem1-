@@ -1,0 +1,187 @@
+div.containernavbar {
+  height: 80px;
+  padding: 0;
+}
+
+.dropdownmargin {
+  margin-left: -20% !important;
+}
+
+img.logobrand {
+  width: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.bgnavbar {
+  background: black;
+  padding: 0;
+}
+
+.kontenerbrand {
+  width: 80px;
+  background: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  
+}
+
+.logosignin {
+  font-size: 33px;
+  color: white;
+}
+
+.signuphome {
+  font-size: small;
+  margin-left: 0%;
+}
+.linksignup {
+  color: white;
+}
+
+.dropdown {
+  background-color: black;
+  border: none;
+}
+
+a{
+  text-decoration: none !important;
+  color: white!important;
+}
+
+.kontenersearch {
+  width: 80%;
+  height: 100px;
+  padding-top: 3%;
+  margin-left: 15%;
+}
+.searchbar {
+  background-color: white;
+  width: 80%;
+  padding-top: 3px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.searchbar::placeholder {
+  padding-left: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+.butsearch {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+  .kontenersearch {
+    margin-top: 5%;
+  }
+  div.containernavbar {
+    padding: 0;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 399px){
+  .kontenersearch {
+    margin-top: 2%;
+  }
+  .fontsmall {
+    font-size: 20px !important;
+  }
+  a.dropdown-item {
+    font-size: 12px !important;
+  }
+  span.fontsmall {
+    font-size: 12px !important;
+  }
+  .kontenerbrand{
+    width: 100px;
+    height: 45px;
+  }
+  img.logobrand {
+    height: 45px;
+  }
+  .kontenersearch {
+    margin-left: 5%;
+    padding-top: 8%;
+  }
+  div.containernavbar {
+    padding: 0;
+    height: 50px;
+  }
+  .dropdownmargin {
+    margin-left: -50% !important;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  .kontenersearch {
+    margin-top: 2%;
+  }
+  .kontenerbrand{
+    width: 100px;
+    height: 45px;
+  }
+  img.logobrand {
+    height: 45px;
+  }
+  .kontenersearch {
+    margin-left: 5%;
+    padding-top: 8%;
+  }
+  .fontsmall {
+    font-size: 20px !important;
+  }
+  a.dropdown-item {
+    font-size: 12px !important;
+  }
+  span.fontsmall {
+    font-size: 12px !important;
+  }
+  div.containernavbar {
+    padding: 0;
+    height: 55px;
+  }
+}
+
+@media screen and (width: 1280px){
+  .kontenersearch {
+    margin-top: 1%;
+  }
+  div.containernavbar {
+    height: 90px;
+    padding: 0;
+  }
+}
+
+.fulla {
+  width: 100%;
+  border: none;
+  background-color: #343a40;
+  color: white;
+  text-align: left;
+  padding: 0.25rem 1rem;
+}
+.dropdown-item {
+  padding: 0 !important;
+}
+.fulla:hover {
+  background-color: #52575b;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}

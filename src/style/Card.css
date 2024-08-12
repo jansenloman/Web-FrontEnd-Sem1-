@@ -1,0 +1,62 @@
+.kontenercard {
+  width: 20% !important;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.kontenercard img{
+  width: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.judulcard {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 400px)and (max-width: 450px) {
+  .kontenercard {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 350px)and (max-width: 399px) {
+  .kontenercard {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 451px)and (max-width: 600px) {
+  .kontenercard {
+    width: 33% !important;
+  }
+  .kontenerongoing {
+    margin-top: -3% !important;
+    padding: 13px 0px 2px 12px;
+    margin-top: 1px !important;
+  }
+  .kontenerongoing h2 {
+    font-size: 12px;
+  }
+  .kontenersearch {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 600px)and (max-width: 800px) {
+  .active.carousel-item {
+    height: auto !important;
+    margin-bottom: 20px;
+  }
+  .kontenerongoing h2 {
+    font-size: 15px;
+  }
+  .kontenercard {
+    width: 25% !important;
+  }
+}
